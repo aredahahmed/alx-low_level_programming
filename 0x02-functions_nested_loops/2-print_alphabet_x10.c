@@ -7,7 +7,7 @@
 */
 void print_alphabet_x10(void)
 {
-	int counter = 0;
+	int counter=0;
 	
 	int letter;
 	
