@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* prints the abs value of a number
-* @i: the number
-* Return: returns 0
-*/
+ * _abs - prints the abs value of a number
+ * @i: the number
+ * Return: returns 0
+ */
 int _abs(int i)
 {
 	if (i > 0)
