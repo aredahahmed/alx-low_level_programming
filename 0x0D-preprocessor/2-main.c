@@ -2,8 +2,8 @@
 
 /**
  * main - function
- * @args: no arguments
- * @Return: 0 is success, 1 if not
+ * 
+ * @Return: 0
  */
 int main(void)
 {
