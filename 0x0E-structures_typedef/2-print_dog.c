@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * print_dog - prints the struct dog
- * @d: pointer to struct of type dog
- * Return: Nothing
+ * print_dog - prints a struct dog
+ * @d: pointer to struct type dog
+ * Return: No
  */
 
 void print_dog(struct dog *d)
@@ -19,9 +19,7 @@ void print_dog(struct dog *d)
 		{
 			printf("Name: (nil)\n");
 		}
-
 		printf("Age: %f\n", d->age);
-		
 		if (d->owner)
 		{
 			printf("Owner: %s\n", d->owner);
@@ -32,3 +30,5 @@ void print_dog(struct dog *d)
 		}
 	}
 }
+
+
