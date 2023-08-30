@@ -2,26 +2,24 @@
 #include <stdio.h>
 
 /**
- * print_listint - Prints SLL content
- * @h: pointer to SLL head
- * Return: Integer
- */
+ * print_listint - Print elements of a singly linked list.
+ * @h: Pointer to a list.
+ * Return: Integer.
+ **/
+
 size_t print_listint(const listint_t *h)
 {
-	const listint_t *node;
-	unsigned int count = 0;
+	const listint_t *tp;
+	unsigned int cntr = 0;
 
-	node = h;
-
-	while (node)
+	tp = h;
+	while (tp)
 	{
-		printf("%d\n", node->n);
-		count++;
-		node = node->next;
+		printf("%d\n", tp->n);
+		cntr++;
+		tp = tp->next;
 	}
-
-	return (count);
-
+	return (cntr);
 }
 
 
