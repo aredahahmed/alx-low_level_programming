@@ -4,7 +4,8 @@
 /**
  * print_listint - Prints SLL content
  * @h: pointer to SLL head
- * Return: Integer
+ * 
+ * return: Integer
  */
 size_t print_listint(const listint_t *h)
 {
